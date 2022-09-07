@@ -6,10 +6,9 @@ Worktest for Easy Trigger's studio.
 "Your task is to create life in the scene with the player and enemies, try your very best to get a nice game feel to player jump and movements. Other than that, your hands are free. Let’s see what you can come up with."
 
 ## Objective: 
-Create a simple gameplay style that is driven by the animation limits. I.e., no shooting while jumping (because no animation).
-Systems that are modular and split in each script.
-Attack Module: Any unit can use it, and will be used to either shoot or punch. Each shoot costs an ammo, and when 0, the next shooting attempt will count as a reloading.
-Health Module: Any unit can use it (even objects) and will be used to see tags as "damageable". Send events when hit and when diying. Can also set dropables when dying (with 0 to 100 percentage chance).
+Create a simple gameplay style that is driven by the animation limits. I.e., no shooting while jumping (because no animation). Following by systems that are modular and split in each script. \n
+Attack Module: Any unit can use it, and will be used to either shoot or punch. Each shoot costs an ammo, and when 0, the next shooting attempt will count as a reloading. \n
+Health Module: Any unit can use it (even objects) and will be used to see tags as "damageable". Send events when hit and when diying. Can also set dropables when dying (with 0 to 100 percentage chance). \n
 Movement Module: Any unit can use it. The gravity is handled by Rigibody2D, but the actual movement, ground check and such is handled by this module.
 Stealth Module: Any unit can use it. On certain areas, you can press Z to hide. You'll not be seen by any other unit and if you try to shoot, you'll stop being hidden. You cannot move while hidden.
 InstaPunch Module: Only player can use it. Overdrive the punch when the enemy is at 1 life. Will move the unit to the target and apply a deathly blow. This is heavily inspired by DOOM. When killing someone with this, the player will get a free (and fast) reload.
@@ -17,7 +16,7 @@ Enemy behaviours are basic. One Patrol Behaviour that will go forward and turn w
 
 ## Animations:
 #### Player:
--> Walk (0-5)
+-> Walk (0-5) \n
 -> FrontDeath (6-9)
 -> BackDeath(5/10-13)
 -> Shoot (14-17)
