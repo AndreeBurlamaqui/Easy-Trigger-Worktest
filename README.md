@@ -14,8 +14,8 @@ Stealth Module: Any unit can use it. On certain areas, you can press Z to hide. 
 InstaPunch Module: Only player can use it. Overdrive the punch when the enemy is at 1 life. Will move the unit to the target and apply a deathly blow. This is heavily inspired by DOOM. When killing someone with this, the player will get a free (and fast) reload.
 Enemy behaviours are basic. One Patrol Behaviour that will go forward and turn when there's no ground or a wall in front of it. And one Sight Behaviour that, based of a boxy line-of-sight, will tell when someone of the target layer is inside that.
 
-## Animations:
-#### Player:
+### Animations:
+##### Player:
 -> Walk (0-5) \n
 -> FrontDeath (6-9)
 -> BackDeath(5/10-13)
@@ -27,14 +27,14 @@ Enemy behaviours are basic. One Patrol Behaviour that will go forward and turn w
 -> Hide (29)
 -> Idle (22-25)
 
-#### Tomahawk (Enemy):
+##### Tomahawk (Enemy):
 -> Walk (0-5)
 -> Shoot (14-17)
 -> Hit (29)
 -> Idle (22-25)
 -> FrontDeath (6-9)
 
-## Things I'd improve (that's not already written in comments):
+### Things I'd improve (that's not already written in comments):
 -> Add a time to warn player that the enemy is going to shoot, like MGS " ! "
 -> Backstab extra damage, to help stealth playstyle
 -> More visual indication that it's reloading
@@ -42,10 +42,10 @@ Enemy behaviours are basic. One Patrol Behaviour that will go forward and turn w
 -> Jump curve
 -> Fix bugs specially about the one way 
 
-## Observations:
+### Observations:
 Events doesn't work as expected, because Listeners script should show an UnityEvent, unfortunate, if it's not the Simple Event, it won't show on this Unity version. It's a known and fixed bug on after versions.
 
-## Known Bugs:
+### Known Bugs:
 -> Sometimes when doing going up and down too fast on one-ways the physics will break and it'll count as you're not grounded
 -> Some visual bugs from animations depending on how the interactions are updating it 
 
