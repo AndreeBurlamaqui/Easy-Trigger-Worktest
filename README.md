@@ -17,23 +17,23 @@ Enemy behaviours are basic. One Patrol Behaviour that will go forward and turn w
 
 Animations:
 Player:
-Walk (0-5)
-FrontDeath (6-9)
-BackDeath(5/10-13)
-Shoot (14-17)
-Punch (17-20)
-Jump (26)
-Fall (27)
-Duck (28)
-Hide (29)
-Idle (22-25)
+-> Walk (0-5)
+-> FrontDeath (6-9)
+-> BackDeath(5/10-13)
+-> Shoot (14-17)
+-> Punch (17-20)
+-> Jump (26)
+-> Fall (27)
+-> Duck (28)
+-> Hide (29)
+-> Idle (22-25)
 
-Tomahawk (Enemy):
-Walk (0-5)
-Shoot (14-17)
-Hit (29)
-Idle (22-25)
-FrontDeath (6-9)
+## Tomahawk (Enemy):
+-> Walk (0-5)
+-> Shoot (14-17)
+-> Hit (29)
+-> Idle (22-25)
+-> FrontDeath (6-9)
 
 Things I'd improve (that's not already written in comments):
 -> Add a time to warn player that the enemy is going to shoot, like MGS " ! "
