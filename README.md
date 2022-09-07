@@ -1,9 +1,9 @@
 # Worktest for Easy Trigger's studio.
 
-### Prompt: 
+#### Prompt: 
 "Your task is to create life in the scene with the player and enemies, try your very best to get a nice game feel to player jump and movements. Other than that, your hands are free. Let’s see what you can come up with."
 
-### Objective: 
+#### Objective: 
 - Create a simple gameplay style that is driven by the animation limits. I.e., no shooting while jumping (because no animation). Following by systems that are modular and split in each script.
 - Attack Module: Any unit can use it, and will be used to either shoot or punch. Each shoot costs an ammo, and when 0, the next shooting attempt will count as a reloading.
 - Health Module: Any unit can use it (even objects) and will be used to see tags as "damageable". Send events when hit and when diying. Can also set dropables when dying (with 0 to 100 percentage chance).
@@ -43,7 +43,7 @@
 #### Observations:
 Events doesn't work as expected, because Listeners script should show an UnityEvent, unfortunate, if it's not the Simple Event, it won't show on this Unity version. It's a known and fixed bug on after versions.
 
-### Known Bugs:
+#### Known Bugs:
 - Sometimes when doing going up and down too fast on one-ways the physics will break and it'll count as you're not grounded
 - Some visual bugs from animations depending on how the interactions are updating it 
 
