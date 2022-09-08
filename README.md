@@ -1,4 +1,4 @@
-# Worktest for Easy Trigger's studio.
+# Worktest for Easy Trigger's studio. [Made in 2 days]
 
 #### Prompt: 
 "Your task is to create life in the scene with the player and enemies, try your very best to get a nice game feel to player jump and movements. Other than that, your hands are free. Let’s see what you can come up with."
